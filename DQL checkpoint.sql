@@ -18,7 +18,9 @@
 -- SELECT CUSTOMER_ID FROM ORDERS WHERE QUANTITY > 2;
 
 
--- SELECT count(customer_id),extract(month from orderdate) as "month" from orders group by orderdate;
+
+        For each month of 2020 year, display the number of orders
+-- SELECT orderdate from orders group by orderdate having group by orderdate extract(month from orderdate) where year = '2020';
 
 
 
