@@ -20,7 +20,7 @@
 
 
         For each month of 2020 year, display the number of orders
--- SELECT orderdate from orders group by orderdate having group by orderdate extract(month from orderdate) where year = '2020';
+-- SELECT orderdate from orders group by orderdate having group by orderdate extract('month' from orderdate) where year = '2020';
 
 
 
